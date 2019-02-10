@@ -1,6 +1,6 @@
 .sectionOne {
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
     /* background-color: blue; */
     margin: 0;
     display: flex;
@@ -38,5 +38,36 @@ h3 {
     font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
     font-size: 35px;
-    margin-left: 20px;
+    margin: 0 0 0 40px;
+    /* margin: 0 auto; */
 }
+
+ul {
+    color: #595959;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.sectionFormatting {
+    /* margin: 0 0 0 40px; */
+    /* height: 500px; */
+    padding-left: 60px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+a {
+    text-decoration: none;
+    color: #4488E8;
+}
+
+/* .sectionThree {
+    margin: 0 0 0 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+} */
