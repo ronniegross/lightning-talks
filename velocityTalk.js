@@ -62,3 +62,69 @@ $("#arrow5").click(function(){
 			.velocity({ opacity: 1 });
 	});
 });
+
+$(".colorAnimation").click(function(){
+	$(".colorAnimation").velocity({ color: "#4488E8" });
+});
+
+$(".transforms").click(function(){
+	$(".transforms").velocity({
+		scale: 1.5,
+		translateX: 300
+	});
+});
+
+$(".loops").click(function(){
+	$(".loops").velocity({
+		translateX: "100px"},
+		{
+		duration: 1000, loop: true,
+		}
+		
+	);
+});
+
+$(".fade").click(function(){
+	$(".fade").velocity({ opacity: 0 }, function(){
+		$(this)
+			.velocity(
+				{ opacity: 1 },
+				{duration: 1000, loop: true}
+			);
+	});
+});
+
+$(".slide").click(function(){
+	$(".slide").velocity({
+		translateX: "400px"},
+	);
+});
+
+
+$(".htmlvelocity").velocity({ opacity: 0 });
+
+
+$(".htmlExample").click(function(){
+	$(".htmlvelocity").velocity({ opacity: 1 }, function(){
+		$(this)
+			// .velocity({ opacity: 0 });
+	});
+});
+
+$(".velocityjs").velocity({ opacity: 0 });
+
+
+$(".velocityExample").click(function(){
+	$(".velocityjs").velocity({ opacity: 1 }, function(){
+		$(this)
+			// .velocity({ opacity: 0 });
+	});
+});
+
+// $(".sectionOne").velocity("fadeIn", function(){
+// 	$(".arrow").velocity(
+//         // {translateX: "90%"},
+// 		{ translateY: "10px" },
+// 		{ duration: 800, loop: true }
+// 	);
+// });

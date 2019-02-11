@@ -6,7 +6,7 @@
 
 .sectionOne {
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     /* background-color: blue; */
     margin: 0;
     display: flex;
@@ -31,6 +31,7 @@ h1 {
     height: 7px;
     width: 50px;
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 h2 {
@@ -44,10 +45,13 @@ h2 {
 .arrowBox {
     /* align-self: flex-end; */
     /* justify-items: flex-end; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* padding: 10%; */
     height: 50px;
     width: 50px;
     /* margin: 200px 150px 0 0; */
-    padding-top: 200px;
+    /* padding-top: 200px; */
     margin: 0 auto;
     cursor: pointer;
     /* background-color: pink; */
@@ -55,6 +59,14 @@ h2 {
     /* position: fixed; */
     /* left: 50%; */
     /* bottom: 10%; */
+}
+
+.arrowBox1 {
+    padding: 10%;
+    margin: 0 auto;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
 }
 
 img {
@@ -91,15 +103,8 @@ li {
 }
 
 .sectionFormatting {
-    /* margin: 0 0 0 40px; */
-    /* height: 500px; */
-    /* padding-left: 60px; */
     width: 100vw;
-    height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-start; */
-    /* background-color: blue; */
+    height: 100vw;
 }
 
 a {
@@ -108,9 +113,42 @@ a {
 }
 
 .contentFormat {
-    margin-left: 5%;
-    margin-top: 10%;
+    /* margin-left: 5%;
+    margin-top: 10%; */
+    margin-left: 60px;
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
 }
+
+
+.contentFormat1 {
+    /* margin-left: 5%;
+    margin-top: 10%; */
+    margin-left: 60px;
+    margin-top: 65px;
+    height: 600px;
+    width: 100%;
+}
+
+/* .contentFormat1 {
+    margin-left: 60px;
+    margin-top: 100px
+}
+
+.contentFormat2 {
+    margin-left: 60px;
+    margin-top: 250px;
+    padding-bottom: 0;
+}
+.contentFormat3 {
+    margin-left: 60px;
+    margin-top: 200px;
+} */
+
+/* .arrowBox1 {
+    padding-top: -300px;
+} */
 
 .sectionTwo {
     display: flex;
@@ -132,9 +170,6 @@ a {
     display: flex
 }
 
-/* .sectionThree {
-    margin: 0 0 0 40px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-} */
+.resources {
+    padding-bottom: 150px;
+}
