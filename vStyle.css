@@ -47,11 +47,14 @@ h2 {
     height: 50px;
     width: 50px;
     /* margin: 200px 150px 0 0; */
-    padding-top: 100px;
-    margin: auto;
+    padding-top: 200px;
+    margin: 0 auto;
     cursor: pointer;
     /* background-color: pink; */
     /* display: flex; */
+    /* position: fixed; */
+    /* left: 50%; */
+    /* bottom: 10%; */
 }
 
 img {
@@ -69,9 +72,9 @@ h3 {
     font-weight: 100;
     font-size: 35px;
     /* margin: 0 0 0 40px; */
-    padding-left: 300px;
-    padding-top: 15%;
-    padding-bottom: 3%;
+    /* padding-left: 300px; */
+    /* padding-top: 15%; */
+    /* padding-bottom: 3%; */
     /* margin: 0 auto; */
 }
 
@@ -79,7 +82,7 @@ ul {
     color: #595959;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    padding-left: 300px;
+    /* padding-left: 300px; */
     /* margin: 0 auto; */
 }
 
@@ -94,14 +97,39 @@ li {
     width: 100vw;
     height: 100vh;
     /* display: flex; */
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
     /* background-color: blue; */
 }
 
 a {
     text-decoration: none;
     color: #4488E8;
+}
+
+.contentFormat {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 5%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.sectionThree {
+    display: flex;
+}
+
+.sectionFour {
+    display: flex;
+}
+
+.sectionFive {
+    display: flex
 }
 
 /* .sectionThree {
