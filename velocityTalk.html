@@ -7,61 +7,78 @@
     <title>Velocity.js Demo</title>
     <link rel="stylesheet" href="vStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro" rel="stylesheet">  
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- <script src="jquery.js"></script>   -->
-    <script src="velocityTalk.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <!-- <script defer src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.ui.min.js"></script> -->
+    <script defer src="velocityTalk.js"></script>
 </head>
 <body data-hijacking="off" data-animation="rotate">
-    <div class="sectionOne">
-            <h1>Velocity.js</h1>
-            <div class="blueBar"></div>
-            <h2>A JavaScript animation engine</h2>
-    </div>
-    <div class="sectionFormatting">
-            <h3>What it is</h3>
-            <ul>
-                <li>Animation engine</li>
-                <li>Has the same syntax as the most popular JavaScript library, jQuery</li>
-                <li>Allows user to control the DOM</li>
-                <li>Multiple animations sequentially</li>
-            </ul>
-    </div>
-    <div class="sectionFormatting">
-            <h3>What it does</h3>
-            <ul>
-                <li>Color animations</li>
-                <li>Transforms</li>
-                <li>Loops</li>
-                <li>Fade</li>
-                <li>Slide</li>
-                <li>SVG Support</li>
-                <li>Scroll events</li>
-            </ul>
-    </div>
-    <div class="sectionFormatting">
-            <h3>Why it is needed</h3>
-            <ul>
-                <li>Better performance than jQuery, especially on mobile</li>
-            </ul>
-    </div>
-    <div class="sectionFormatting">
-            <h3>How it works</h3>
-            <ul>
-                <li><a href="https://codepen.io/ro_gro/pen/LqddqX">Velocity.js demo</a></li>
-            </ul>
-    </div>
-    <div class="sectionFormatting">
-            <h3>Resources</h3>
-            <ul>
-                <li><a href="http://velocityjs.org/">http://velocityjs.org/</a></li>
-                <li><a href="https://www.sitepoint.com/how-to-use-velocity-js-without-jquery/">https://www.sitepoint.com/how-to-use-velocity-js-without-jquery/</a></li>
-                <li><a href="https://codyhouse.co/gem/page-scroll-effects">https://codyhouse.co/gem/page-scroll-effects</a></li>
-                <li><a href="https://webdesign.tutsplus.com/tutorials/silky-smooth-web-animation-with-velocityjs--cms-24266">https://webdesign.tutsplus.com/tutorials/silky-smooth-web-animation-with-velocityjs--cms-24266</a></li>
-                <li><a href="https://codepen.io/collection/tIjGb/">https://codepen.io/collection/tIjGb/</a></li>
-                <li><a href="https://spin.atomicobject.com/2016/06/23/web-animation-velocity-js/">https://spin.atomicobject.com/2016/06/23/web-animation-velocity-js/</a></li>
-            </ul>
+    <div class="overallContainer">
+            <div class="sectionOne">
+                    <h1>Velocity.js</h1>
+                    <div class="blueBar"></div>
+                    <h2>A JavaScript animation engine</h2>
+            </div>       
+        <div class="sectionTwo">
+            <div class="sectionFormatting">
+                    <h3>What it is</h3>
+                    <ul>
+                        <li>Animation engine</li>
+                        <li>Has the same syntax as the most popular JavaScript library, jQuery</li>
+                        <li>Allows user to control the DOM</li>
+                        <li>Multiple animations sequentially</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="sectionThree">
+            <div class="sectionFormatting">
+                    <h3>Why it is needed</h3>
+                    <ul>
+                        <li>Better performance than jQuery, especially on mobile</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="sectionFour">
+            <div class="sectionFormatting">
+                    <h3>What it does</h3>
+                    <ul>
+                        <li>Color animations</li>
+                        <li>Transforms</li>
+                        <li>Loops</li>
+                        <li>Fade</li>
+                        <li>Slide</li>
+                        <li>SVG Support</li>
+                        <li>Scroll events</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="sectionFive">   
+            <div class="sectionFormatting">
+                    <h3>How it works</h3>
+                    <ul>
+                        <li><a href="https://codepen.io/ro_gro/pen/LqddqX">Velocity.js demo</a></li>
+                    </ul>
+            </div>
+        </div> 
+        <div class="sectionSix">
+            <div class="sectionFormatting">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="http://scrollmagic.io/examples/advanced/section_wipes_manual.html">http://scrollmagic.io/examples/advanced/section_wipes_manual.html</a></li>
+                        <li><a href="http://www.independent-software.com/velocity-js-tutorial-accelerated-javascript-animation.html">http://www.independent-software.com/velocity-js-tutorial-accelerated-javascript-animation.html</a></li>
+                        <li><a href="http://velocityjs.org/">http://velocityjs.org/</a></li>
+                        <li><a href="https://www.sitepoint.com/how-to-use-velocity-js-without-jquery/">https://www.sitepoint.com/how-to-use-velocity-js-without-jquery/</a></li>
+                        <li><a href="https://codyhouse.co/gem/page-scroll-effects">https://codyhouse.co/gem/page-scroll-effects</a></li>
+                        <li><a href="https://codyhouse.co/demo/page-scroll-effects/index.html">https://codyhouse.co/demo/page-scroll-effects/index.html</a></li>
+                        <li><a href="https://webdesign.tutsplus.com/tutorials/silky-smooth-web-animation-with-velocityjs--cms-24266">https://webdesign.tutsplus.com/tutorials/silky-smooth-web-animation-with-velocityjs--cms-24266</a></li>
+                        <li><a href="https://codepen.io/collection/tIjGb/">https://codepen.io/collection/tIjGb/</a></li>
+                        <li><a href="https://spin.atomicobject.com/2016/06/23/web-animation-velocity-js/">https://spin.atomicobject.com/2016/06/23/web-animation-velocity-js/</a></li>
+                    </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
