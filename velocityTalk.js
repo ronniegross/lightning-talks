@@ -56,12 +56,21 @@ $("#arrow4").click(function(){
 });
 
 $("#arrow5").click(function(){
+	$(".sectionCDN").velocity({ opacity: 0 }, function(){
+		$(this)
+			.velocity("scroll", 500)
+			.velocity({ opacity: 1 });
+	});
+});
+
+$("#arrow6").click(function(){
 	$(".sectionSix").velocity({ opacity: 0 }, function(){
 		$(this)
 			.velocity("scroll", 500)
 			.velocity({ opacity: 1 });
 	});
 });
+
 
 $(".colorAnimation").click(function(){
 	$(".colorAnimation").velocity({ color: "#4488E8" });

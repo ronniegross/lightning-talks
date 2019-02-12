@@ -69,6 +69,12 @@ h2 {
     width: 50px;
 }
 
+p {
+    color: #595959;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -109,7 +115,9 @@ li {
 
 a {
     text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #4488E8;
+    font-size: 24px;
 }
 
 .contentFormat {
@@ -129,6 +137,11 @@ a {
     margin-top: 65px;
     height: 600px;
     width: 100%;
+}
+
+.contentFormatCDN {
+    padding-top: 100px;
+    padding-bottom: 65px;
 }
 
 /* .contentFormat1 {
@@ -167,6 +180,10 @@ a {
 }
 
 .sectionFive {
+    display: flex
+}
+
+sectionCDN {
     display: flex
 }
 
