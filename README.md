@@ -11,6 +11,7 @@ VELOCITY.JS gist
         https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
         https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js
         https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js
+        use it like you would jquery
 
 3. WANT MORE INFORMATION?
     https://codepen.io/zachacole/pen/VYVLdx
